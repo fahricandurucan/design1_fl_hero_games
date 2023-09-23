@@ -6,18 +6,11 @@ class CColors {
   static const textColor = Color(0xffCECECE);
   static const backgroundcolor = Color(0xff161616);
   static const iconColor = Color(0xff373737);
-  static const foregroundBlack = Color(0xff202020);
   static const subtitleColor = Color(0xff979797);
   static const sideColor = Color(0x4cb7b7b3);
   static const black = Colors.black;
   static const green = Colors.green;
-  static const orange = Colors.orange;
-  static const red = Colors.red;
   static const statusColor = Color(0xffD9D9D9);
-  static const logoRed = Color(0xffe75236);
-  static const logoOrange = Color(0xffe68c35);
-  static const logoYellow1 = Color(0xffdbae34);
-  static const logoYellow2 = Color.fromARGB(255, 206, 52, 52);
   static const titleColor = Color(0xFF865644);
   static const featureTitleColor = Color.fromARGB(255, 38, 57, 66);
   static const activeCirlceColor = Color.fromARGB(255, 122, 122, 122);
@@ -86,11 +79,6 @@ class Styles {
   //     );
   // static TextStyle get biggerTitle => const TextStyle(
   //       fontSize: 24,
-  //       fontWeight: FontWeight.w500,
-  //     );
-
-  // static TextStyle get evenBiggerTitle => const TextStyle(
-  //       fontSize: 36,
   //       fontWeight: FontWeight.w500,
   //     );
 }
