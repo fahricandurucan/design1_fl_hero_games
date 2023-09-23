@@ -20,6 +20,8 @@ class CColors {
   static const logoYellow2 = Color.fromARGB(255, 206, 52, 52);
   static const titleColor = Color(0xFF865644);
   static const featureTitleColor = Color.fromARGB(255, 38, 57, 66);
+  static const activeCirlceColor = Color.fromARGB(255, 122, 122, 122);
+  static const inactiveCirlceColor = Color.fromARGB(255, 199, 199, 199);
 
   static const Map<int, Color> primarySwatchColors = {
     50: Color.fromRGBO(0, 120, 212, .1),

@@ -16,13 +16,13 @@ class BottomNavBarWidget extends StatelessWidget {
       BottomNavigationBarItem(
           label: "b",
           icon: Icon(
-            Icons.window_outlined,
+            Icons.grid_view,
             color: CColors.iconColor,
           )),
       BottomNavigationBarItem(
           label: "c",
           icon: Icon(
-            Icons.person,
+            Icons.calendar_today_outlined,
             color: CColors.iconColor,
           )),
       BottomNavigationBarItem(

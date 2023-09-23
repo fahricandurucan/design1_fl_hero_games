@@ -17,7 +17,7 @@ class TitleWidget extends StatelessWidget {
             style: Styles.title,
           ),
           Padding(
-            padding: const EdgeInsets.only(right: 20),
+            padding: const EdgeInsets.only(right: 10),
             child: Text(
               "See more >",
               style: Styles.clickTitle,

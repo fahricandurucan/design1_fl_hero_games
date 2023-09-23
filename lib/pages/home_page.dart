@@ -66,19 +66,14 @@ class HomePage extends StatelessWidget {
               ],
             ),
             const SizedBox(
-              height: 12,
+              height: 10,
             ),
             const TitleWidget(
               title: 'Feature',
             ),
             const FeatureContainerWidget(),
-            const Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  Icons.more_horiz,
-                ),
-              ],
+            const SizedBox(
+              height: 15,
             ),
             const TitleWidget(title: "Exercise"),
             Expanded(
