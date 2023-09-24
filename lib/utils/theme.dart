@@ -33,6 +33,16 @@ class CColors {
 }
 
 class Styles {
+  // static TextStyle get biggerSubtitle => const TextStyle(
+  //       fontSize: 15,
+  //       fontWeight: FontWeight.w300,
+  //       color: CColors.subtitleColor,
+  //     );
+  // static TextStyle get biggerTitle => const TextStyle(
+  //       fontSize: 24,
+  //       fontWeight: FontWeight.w500,
+  //     );
+
   static TextStyle get bigTitle => const TextStyle(
         fontSize: 21,
         fontWeight: FontWeight.w400,
@@ -71,14 +81,4 @@ class Styles {
         height: 1.23,
         color: CColors.black,
       );
-
-  // static TextStyle get biggerSubtitle => const TextStyle(
-  //       fontSize: 15,
-  //       fontWeight: FontWeight.w300,
-  //       color: CColors.subtitleColor,
-  //     );
-  // static TextStyle get biggerTitle => const TextStyle(
-  //       fontSize: 24,
-  //       fontWeight: FontWeight.w500,
-  //     );
 }
